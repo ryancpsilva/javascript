@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Site</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        div#date{
+            background-color: aquamarine;
+            width: fit-content;
+            margin: 1vh;
+            padding-bottom: 1vh ;
+        }
+        h1{
+            padding: 1vh;
+            margin: auto;
+            width: 100px;
+        }
+        p{
+            padding: 1vh;
+            width: 500px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="date"></div>
+    <h1>Site</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis ullam unde molestiae alias a, eaque, aliquid quas dolorum, veritatis quo iste ad officia sapiente corporis totam neque nulla quis repudiandae!</p>
+</body>
+<script>
+    var date=document.body.querySelector('div#date')
+    var agora = new Date()
+    var hoje = agora.getDay()
+    var hora = agora.getHours()
+    switch (hoje){
+        case 0:
+            date.innerHTML+= 'Domingo'
+            break
+        case 1:
+            date.innerHTML+= 'Segunda-feira, '
+            break
+        case 2:
+            date.innerHTML += 'Terça-feira, '
+            break
+        case 3:
+            date.innerHTML += 'Quarta-feira, '
+            break
+        case 4: 
+            date.innerHTML += 'Quinta-feira, '
+            break
+        case 5:
+            date.innerHTML += 'Sexta-feira, ' 
+            break
+        case 6: 
+            date.innerHTML += 'Sábado,'
+            break
+    }
+    if (hora==1){
+        date.innerHTML += hora += ' hora'
+    }else{
+        date.innerHTML += hora += ' horas'
+    }
+</script>
+</html>
