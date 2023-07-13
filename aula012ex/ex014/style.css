@@ -2,9 +2,23 @@ body{
 background-color: aqua;
 font: normal 15pt arial;
 }
+.noite{
+    background-color: rgba(8, 8, 173, 0.733);
+}
+.tarde{
+    background-color: rgba(216, 158, 52, 0.801);
+}
+.dia{
+    background-color: rgba(30, 187, 179, 0.774);
+}
 header{
     color: white;
     text-align: center;
+}
+div{
+    text-align: center;
+    width: 500px;
+    height: px;
 }
 section{
     background-color: white;
