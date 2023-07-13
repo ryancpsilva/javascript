@@ -17,14 +17,12 @@ header{
 }
 div{
     text-align: center;
-    width: 500px;
-    height: px;
 }
 section{
     background-color: white;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    max-width: 500px;
     margin: auto;
     box-shadow: 2px 2px 15px;
 }
