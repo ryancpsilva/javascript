@@ -8,7 +8,7 @@ while (c<100){
         console.log(`${c} é ímpar`)
     }
 }*/
-
+/*
 var n = 100;
 var arr = Array.from(Array(n).keys());
 for (let i in arr){
@@ -17,5 +17,5 @@ for (let i in arr){
     }else{
         console.log(`${i} é ímpar`)
     }
-    
 }
+*/

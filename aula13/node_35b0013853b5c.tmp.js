@@ -1,5 +1,7 @@
-var c=1
-while (c%97>=0){
-    c++
-    console.log(`${c}`)
+let i = "Gustavo"
+let a = ['Ryan','Marcos','Yasmim', 'Gustavo']
+
+function verificar() {
+    return console.log(a)
 }
+verificar()
