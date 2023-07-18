@@ -42,14 +42,14 @@
 // }
 
 // Ex. 08
-// let a = [10, 20, 30, 40, 50]
-// let c = 0
-// for (var i in a) {
-//     c += a[i]
-// }
-// console.log(c/a.length)
-// console.log(a.length)
-// console.log(c)
+let a = [10, 20, 30, 40, 50]
+let c = 0
+for (var i in a) {
+    c += a[i]
+}
+console.log(c/a.length)
+console.log(a.length)
+console.log(c)
 
 // ex. 09 
 // let objeto = { nome: "João", idade: 25, cidade: "São Paulo" }

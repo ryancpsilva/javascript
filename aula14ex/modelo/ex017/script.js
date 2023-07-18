@@ -15,3 +15,11 @@ function tabuada(){
         }
     }
 }
+function bora() {
+    let btn = document.getElementById('btn')
+    btn.setAttribute('value', 'Bora')
+}
+function tchau() {
+    let btn = document.getElementById('btn')
+    btn.setAttribute('value', 'Gerar Tabuada')
+}
