@@ -18,4 +18,5 @@
 //     console.log(num[i])
 // }
 
- 
+ var a=[]
+ console.log(a.indexOf(0))
